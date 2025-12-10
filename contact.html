@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <hr>
+    <header>
+        <!-- 4.1 มี Contact Form สําหรับป้อนข้อมูล เช่น ชื่อ, อีเมล, ข้อความติดต่อเป็นต้น -->
+        <h1>การติดต่อ</h1>
+        <form action="/register" method="POST">
+            <fieldset>
+                <legend>
+                    ข้อมูลส่วนตัว
+                </legend>
+                <label for="fname">ชื่อจริง:</label>
+                 <input type="text" id="fname" name="firstname" required />
+                 <label for="lname">นามสกุล:</label>
+                 <input type="text" id="lname" name="Lastname" required />
+                 <br>
+                 <label for="email">อีเมล:</label>
+                 <input type="email" id="email" name="email" required />
+                 <label for="tel">เบอร์:</label>
+                 <input type="tel" id="tel" name="tel" required />
+                 <br>
+                 <label for="other">ข้อมูลเพิ่มเติม:</label>
+                 <br>
+                 <textarea name="other" id="other" rows="5" cols="75"></textarea>
+            </fieldset>
+             <button type="submit">ส่งข้อมูล</button>
+             <button type="reset">ยกเลิก</button>
+        </form>
+    </header>
+   <section id="address">
+    <!-- 4.2 ที่อยู่ของบริษัท -->
+    <p>
+      Roblox<br>
+      182/45 ถนนพหลโยธิน แขวงอนุสาวรีย์<br>
+      เขตบางเขน กรุงเทพมหานคร<br>
+      10220
+    </p>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.807367160444!2d100.53625661535052!3d13.724560801139864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2992c60e963df%3A0x7df7965a7ab6b523!2z4Lij4Lib4Li14Lii4Lij4Lin4Lij4LmM4Lie4Lil4LmA4Lia4LmH4LiK4Li14LmI4Lit4LiH!5e0!3m2!1sth!2sth!4v1700000000000"
+      width="300"
+      height="200"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy">
+    </iframe>
+    <br>
+    <a href="http://127.0.0.1:5500/index.html">home page</a>
+   </section>
+</body>
+</html>

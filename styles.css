@@ -1,0 +1,435 @@
+/* ========================
+   RESET & BASE
+======================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #ffffff;
+  background: linear-gradient(135deg, #ff0000, #2b0000, #000000);
+}
+
+/* ========================
+   HEADER (ใช้ทั้งหน้าแรก + Story)
+======================== */
+/* ========================
+   HEADER (CENTERED)
+======================== */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  padding: 60px 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border-bottom: 3px solid #ff0000;
+  gap: 15px;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #ffcc00;
+  letter-spacing: 2px;
+}
+
+header h2 {
+  font-size: 1.8rem;
+  color: #00aaff;
+}
+
+header h3 {
+  font-size: 1.5rem;
+}
+
+header h4 {
+  font-size: 1.3rem;
+  color: #ffcc00;
+}
+
+header p {
+  max-width: 720px;
+  font-size: 1.05rem;
+}
+
+/* รูปใน header */
+header img {
+  width: 20%;
+  min-width: 160px;
+  margin: 20px 0;
+}
+
+/* ========================
+   LIST (Featured Services)
+======================== */
+ul {
+  list-style: none;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+/* ลิงก์ใน li ใช้สีเดียวกับข้อความ */
+ul li a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: inherit;
+}
+
+ul li:hover {
+  background: rgba(255, 0, 0, 0.6);
+  transform: translateY(-3px);
+}
+
+ul li a:hover {
+  color: #ffffff;
+}
+
+/* ========================
+   IMAGES
+======================== */
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #ff0000;
+}
+
+/* ========================
+   CONTENT SECTIONS (Story / Team / Mission)
+======================== */
+section {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  margin: 30px auto;
+  max-width: 900px;
+}
+
+section p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+/* ========================
+   FOOTER
+======================== */
+#footer {
+  background-color: #000000;
+  padding: 30px 20px;
+  text-align: center;
+  border-top: 2px solid #ff0000;
+  margin-top: 40px;
+}
+
+#footer h4 {
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+#footer p {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+/* ========================
+   GLOBAL LINK (เช่น home page)
+======================== */
+a {
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ffffff;
+}
+/* ========================
+   CONTACT PAGE
+======================== */
+
+/* กล่องส่วนหัวฟอร์ม (headerr) */
+headerr {
+  display: block; /* เพราะ tag นี้ไม่ใช่ tag มาตรฐาน */
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 40px 30px;
+  background: rgba(0, 0, 0, 0.65);
+  border-radius: 12px;
+  border: 2px solid #ff0000;
+  text-align: center;
+}
+
+headerr h1 {
+  font-size: 2.5rem;
+  color: #ffcc00;
+  margin-bottom: 30px;
+}
+
+/* ========================
+   FORM
+======================== */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+}
+
+fieldset {
+  border: 1px solid #ff0000;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+legend {
+  padding: 0 10px;
+  color: #ffcc00;
+  font-weight: bold;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+/* ========================
+   BUTTONS
+======================== */
+button {
+  margin-top: 15px;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button[type="submit"] {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+button[type="submit"]:hover {
+  background-color: #cc0000;
+}
+
+button[type="reset"] {
+  background-color: #444444;
+  color: #ffffff;
+}
+
+button[type="reset"]:hover {
+  background-color: #666666;
+}
+
+/* ========================
+   ADDRESS SECTION
+======================== */
+#address {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  text-align: center;
+}
+
+#address p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+/* Map */
+#address iframe {
+  border-radius: 10px;
+  border: 2px solid #ff0000;
+  margin-bottom: 20px;
+}
+
+/* ========================
+   HOME LINK BUTTON
+======================== */
+#address a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 2px solid #ffcc00;
+  border-radius: 8px;
+  color: #ffcc00;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+#address a:hover {
+  background-color: #ffcc00;
+  color: #000000;
+}
+/* ========================
+   SERVICES PAGE
+======================== */
+
+/* Header */
+header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+header h3 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+header p {
+  font-size: 1.1rem;
+  margin: 6px 0;
+}
+
+/* ========================
+   SERVICE DETAILS
+======================== */
+section {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+}
+
+section h3 {
+  color: #ff0000;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+section ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+section ul li {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+section ul li:hover {
+  background: rgba(255, 204, 0, 0.2);
+  transform: translateY(-4px);
+}
+
+/* ========================
+   TABLE STYLING
+======================== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #ff0000;
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+td {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+tr:hover td {
+  background-color: rgba(255, 204, 0, 0.15);
+}
+
+/* ========================
+   HOME BUTTON
+======================== */
+section a {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 2px solid #ffcc00;
+  color: #ffcc00;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+section a:hover {
+  background-color: #ffcc00;
+  color: #000000;
+}
+/* ========================
+   HOME PAGE LINK (CENTER ALL PAGES)
+======================== */
+a[href*="index.html"] {
+  display: block;
+  width: fit-content;
+  margin: 40px auto; /* auto = จัดกึ่งกลาง */
+  padding: 12px 24px;
+
+  border: 2px solid #ffcc00;
+  border-radius: 8px;
+
+  color: #ffcc00;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+
+  transition: all 0.3s ease;
+}
+
+a[href*="index.html"]:hover {
+  background-color: #ffcc00;
+  color: #000000;
+}

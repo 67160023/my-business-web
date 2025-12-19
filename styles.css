@@ -11,7 +11,7 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   color: #ffffff;
-  background: linear-gradient(135deg, #ff0000, #2b0000, #000000);
+  background: linear-gradient(135deg, #00d0ff, #16002b, #614ea1);
 }
 
 /* ========================
@@ -29,7 +29,7 @@ header {
   text-align: center;
   padding: 60px 20px;
   background: rgba(0, 0, 0, 0.7);
-  border-bottom: 3px solid #ff0000;
+  border-bottom: 3px solid #06034f;
   gap: 15px;
 }
 
@@ -108,7 +108,7 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
-  border: 2px solid #ff0000;
+  border: 2px solid #1900ff;
 }
 
 /* ========================
@@ -133,7 +133,7 @@ section p {
   background-color: #000000;
   padding: 30px 20px;
   text-align: center;
-  border-top: 2px solid #ff0000;
+  border-top: 2px solid #3700ff;
   margin-top: 40px;
 }
 
@@ -171,7 +171,7 @@ headerr {
   padding: 40px 30px;
   background: rgba(0, 0, 0, 0.65);
   border-radius: 12px;
-  border: 2px solid #ff0000;
+  border: 2px solid #0008ff;
   text-align: center;
 }
 
@@ -192,7 +192,7 @@ form {
 }
 
 fieldset {
-  border: 1px solid #ff0000;
+  border: 1px solid #6600ff;
   border-radius: 10px;
   padding: 20px;
 }
@@ -270,7 +270,7 @@ button[type="reset"]:hover {
 /* Map */
 #address iframe {
   border-radius: 10px;
-  border: 2px solid #ff0000;
+  border: 2px solid #7700ff;
   margin-bottom: 20px;
 }
 
@@ -332,7 +332,7 @@ section {
 }
 
 section h3 {
-  color: #ff0000;
+  color: #7979e5;
   margin-bottom: 15px;
   text-align: center;
 }
@@ -376,7 +376,7 @@ td {
 }
 
 th {
-  background-color: #ff0000;
+  background-color: #7700ff;
   color: #ffffff;
   font-size: 1.1rem;
 }
@@ -398,7 +398,7 @@ section a {
   padding: 12px 24px;
   border-radius: 8px;
   background-color: transparent;
-  border: 2px solid #ffcc00;
+  border: 2px solid #00ffff;
   color: #ffcc00;
   font-weight: bold;
   text-decoration: none;

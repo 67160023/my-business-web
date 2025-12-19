@@ -18,16 +18,14 @@ MY-BUSINESS-WEB
 ├── services.html
 ├── styles.css
 
-
 [index](index.html)
-![index.html](images/Screenshot%202025-12-10%20201807.png)
-![index.html](images/Screenshot%202025-12-10%20201852.png)
+![index.html](images/สกรีนช็อต%202025-12-19%20172251.png)
 
 [about](about.html)
-![about.html](images/Screenshot%202025-12-10%20202003.png)
+![about.html](images/สกรีนช็อต%202025-12-19%20172110.png)
 
 [services](services.html)
-![services.html](images/Screenshot%202025-12-10%20202122.png)
+![services.html](images/สกรีนช็อต%202025-12-19%20172310.png)
 
 [contact](contact.html)
-![services.html](images/Screenshot%202025-12-10%20202217.png)
+![services.html](images/สกรีนช็อต%202025-12-19%20172327.png)
